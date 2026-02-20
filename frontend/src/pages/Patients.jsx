@@ -109,13 +109,6 @@ const Patients = () => {
                                                 </span>
                                             </div>
                                         </div>
-                                        <button
-                                            onClick={() => handleEditClick(appointment)}
-                                            className="text-gray-400 hover:text-brand-600 transition-colors"
-                                            title="Edit Medical Details"
-                                        >
-                                            <PencilSquareIcon className="h-5 w-5" />
-                                        </button>
                                     </div>
 
                                     <div className="space-y-3 text-sm text-gray-600">
