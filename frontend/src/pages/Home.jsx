@@ -186,7 +186,7 @@ const Home = () => {
             <footer className="bg-brand-900 py-12 border-t border-brand-800">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
                     <p className="text-brand-200 text-sm">
-                        &copy; {new Date().getFullYear()} SwasthSeva Medical Center. All rights reserved.
+                        &copy; {new Date().getFullYear()} SwasthSeva. All rights reserved.
                     </p>
                 </div>
             </footer>

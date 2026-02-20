@@ -47,7 +47,7 @@ const MedicalRecords = () => {
         doc.setTextColor(255, 255, 255);
         doc.setFontSize(22);
         doc.setFont('helvetica', 'bold');
-        doc.text("SwasthSeva Health Clinic", 14, 20);
+        doc.text("SwasthSeva", 14, 20);
 
         doc.setFontSize(12);
         doc.setFont('helvetica', 'normal');
