@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import axios from 'axios';
+import api from '../api/axios';
 import Navbar from '../components/Navbar';
 import { PhoneIcon, ArrowRightIcon } from '@heroicons/react/24/solid';
 import {
@@ -16,7 +16,7 @@ const Home = () => {
     useEffect(() => {
         const fetchDoctors = async () => {
             try {
-                const { data } = await axios.get('http://localhost:5000/api/doctors');
+                const { data } = await api.get('/doctors');
                 setDoctors(data);
             } catch (error) {
                 console.error('Error fetching doctors:', error);
