@@ -1,7 +1,10 @@
-# MediTrack - Medical Appointment Management System
+# SwasthSeva - Medical Appointment Management System
 
 ## Project Overview
-MediTrack is a full-stack MERN application for managing medical appointments. It features Role-Based Access Control (RBAC) for Patients and Doctors.
+SwasthSeva is a full-stack MERN application for managing medical appointments. It features Role-Based Access Control (RBAC) for Patients and Doctors.
+
+## Screenshot
+<img width="1920" height="1080" alt="image" src="https://github.com/Anshuman892494/SwasthSeva/blob/main/ScreenShots/Screenshot%202026-02-20%20112225.png?raw=true" />
 
 ## Features
 - **Patient**: Register/Login, Book Appointments, View Appointment Status.
