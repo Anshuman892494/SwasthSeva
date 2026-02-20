@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@plugin "@tailwindcss/postcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+
+  /* Purple Palette based on user image */
+  --color-brand-50: #fbf5fb;
+  --color-brand-100: #ECD4EA;
+  /* Light Lavender */
+  --color-brand-200: #dcbce9;
+  --color-brand-300: #c19ecf;
+  --color-brand-400: #A987A8;
+  /* Muted Purple */
+  --color-brand-500: #8e5e8e;
+  --color-brand-600: #693B69;
+  /* Deep Purple (Primary) */
+  --color-brand-700: #5d335d;
+  --color-brand-800: #511F52;
+  /* Dark Purple */
+  --color-brand-900: #381439;
+
+  --color-accent-50: #fdf4ff;
+  --color-accent-100: #fae8ff;
+  --color-accent-500: #d946ef;
+  /* Fuchsia/Pink accent */
+
+  --shadow-soft: 0 4px 6px -1px rgba(81, 31, 82, 0.05), 0 2px 4px -1px rgba(81, 31, 82, 0.03);
+  --shadow-card: 0 0 0 1px rgba(81, 31, 82, 0.03), 0 2px 8px rgba(81, 31, 82, 0.08);
+}
+
+
+
+/* Custom styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fcfaff;
+  /* Very light purple tint for background */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A987A8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #693B69;
+}
