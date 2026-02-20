@@ -32,7 +32,7 @@ SwasthSeva is a full-stack MERN application for managing medical appointments. I
 3. Create a `.env` file (if not exists) with the following content:
    ```env
    PORT=5000
-   MONGO_URI=mongodb://localhost:27017/meditrack
+   MONGO_URI=mongodb://localhost:27017/your_name
    JWT_SECRET=your_jwt_secret
    ```
 4. Seed the database with sample doctors:
