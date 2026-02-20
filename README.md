@@ -3,6 +3,9 @@
 ## Project Overview
 SwasthSeva is a full-stack MERN application for managing medical appointments. It features Role-Based Access Control (RBAC) for Patients and Doctors.
 
+## Live Link
+<a href="https://swasthseva.onrender.com/settings">Click Here</a>
+
 ## Screenshot
 <img width="1920" height="1080" alt="image" src="https://github.com/Anshuman892494/SwasthSeva/blob/main/ScreenShots/Screenshot%202026-02-20%20112225.png?raw=true" />
 
